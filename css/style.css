@@ -45,9 +45,8 @@
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	box-shadow: 0px 0px 170px #fcff00;/*
-	margin-top: -20px;
-	margin-top: -4px;*/
+	box-shadow: 0px 0px 20px #84857c;
+	cursor:pointer;
 }
 
 /*
