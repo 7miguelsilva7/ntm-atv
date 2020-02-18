@@ -1,0 +1,133 @@
+*{   
+	box-sizing: border-box;   
+	margin: 0px;
+	padding: 0px; 
+	font-family: "Liberation Serif";
+}
+
+body{  
+	background-image: url(../img/objetos-educacionais/bg.jpg);
+}
+
+#disciplinas{
+	width:878px;
+	height:658px;
+	margin: 0 auto; 
+	background-image: url(../img/objetos-educacionais/g3512.png);    
+	background-repeat: no-repeat;
+	background-size: 878px 658px;
+	position: relative;
+	top:40px;
+}
+
+  object{
+	width:705px;
+	height:505px; 
+	position: relative;
+	top:76.3px;
+	left:89px;
+	}
+	
+	  video{
+	width:705px;
+	height:505px; 
+	position: relative;
+	top:76.3px;
+	left:89px;
+	background-color:black;
+	}
+	
+	
+/*****************************************************************************************/
+	
+	
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  #disciplinas{
+	width:703px;
+	height:526px;
+	margin: 0 auto; 
+	background-image: url(../img/objetos-educacionais/g3512.png);    
+	background-repeat: no-repeat;
+	background-size: 703px 526px;
+	position: relative;
+	top:30px;
+}
+
+  object{
+	width:564.5px;
+	height:404px; 
+	position: relative;
+	top:60.5px;
+	left:71px;
+	}
+	
+		  video{
+	width:564.5px;
+	height:404px; 
+	position: relative;
+	top:60.5px;
+	left:71px;
+	background-color:black;
+	}
+  
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+	
+  #disciplinas{
+    /*transform: rotate(30deg);*//* 
+	transform: rotate(90deg); */ /*
+	width:402px;
+	height:312px;/*
+	margin: 0 auto; */ 
+	width:640px;
+	height:360px;
+	background-image: url(../imagens/objetos-educacionais/g3512.png); 
+	background-repeat: no-repeat;/*
+	background-size: 402px 312px; */
+	background-size: 640px 360px; 
+	position: relative;/* */
+	top:120px; 
+	left: -140px;  
+	backgroud-color: red;
+	
+}
+/*
+#caixa{ 
+	width:730px;
+	height:470px;  
+	margin: 0 auto;
+	position: relative;
+	left:auto;
+	right:auto;
+	top:5px;
+	background-color:transparent;
+}*/
+/*
+  object{
+	width:630px;
+	height:440px; 
+	position: relative;
+	top:15px;
+	left:48px;
+	}*/
+ 
+}
+
+

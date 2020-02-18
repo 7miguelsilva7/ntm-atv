@@ -1,0 +1,65 @@
+
+/* ===========================
+--- Disciplina selecionada
+============================ */
+
+#bs-example-navbar-collapse-1 li.selected {
+   /*  background:#606060;
+    color:white; *//* 
+	 background-color: #fff;
+ 	 content: "";/*  
+ 	 width: 100%; /**/ 
+}
+#bs-example-navbar-collapse-1 li.selected a {/*
+    text-decoration:none;/*
+    color:#2a7fff  ;*//*
+	color:#back;*/  /*
+	font-weight: bold;
+    transition: color 0.5s;
+	color: #2a7fff; /*
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/ 
+	border-bottom: 2px solid #2a7fff;/*
+	border-bottom: 2px solid #2E2E2E;*/
+	border-radius: 2px;
+	 
+} 
+
+
+/* ===========================
+--- Services
+============================ */  
+.service-box {
+	background: #FFFFFF;/*
+	border-bottom: 2px solid #f7f7f7;*/ 
+	border-bottom: 4px solid #05731a;
+	padding: 30px 20px;/*
+	padding: 40px 20px;*/
+	border-radius:10px;/**//*
+	margin-bottom:20px;*/
+	margin-bottom:15px;/**/
+	margin-top:40px;  
+	box-shadow: 0px 0px 20px black;
+}
+
+.service-box:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	box-shadow: 0px 0px 170px #fcff00;/*
+	margin-top: -20px;
+	margin-top: -4px;*/
+}
+
+/*
+.service-icon {
+	margin-bottom: 20px;
+}	
+*/
+.service-desc h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #05731a;
+	font-size: 100%;/*
+	margin-bottom: 10px;*/
+}
+
