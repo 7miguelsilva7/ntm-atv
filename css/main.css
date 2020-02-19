@@ -6,6 +6,34 @@
 /*--
     Common Css
 --*/
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary {
+cursor: pointer;
+
+}
+
+summary:before {
+  content: ""; 
+}
+
+details[open] summary:before {
+  content: "";
+}
+
+.noselect {
+-webkit-touch-callout: none;  /* iPhone OS, Safari */
+-webkit-user-select: none;    /* Chrome, Safari 3 */
+-khtml-user-select: none;     /* Safari 2 */
+-moz-user-select: none;       /* Firefox */
+-ms-user-select: none;        /* IE10+ */
+user-select: none;            /* Possível implementação no futuro */
+/* cursor: default; */
+}
+
+
 body {
   font-family: myfont;
   font-size: 14px;
@@ -200,7 +228,7 @@ nav .block .navbar-default .navbar-nav > li > a:hover:before {
   width: 100%;
 }
 nav .block .navbar-default .navbar-nav > li.current > a {
-  color: ##086e03;
+  color: #086e03;
   padding: 10px 0px;
   margin: 0px 15px;
 }
