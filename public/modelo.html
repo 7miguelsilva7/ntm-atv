@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Modelo</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+		<link href="css/animations.css" rel="stylesheet" /><!--   -->  
+        <link href="css/style.css" rel="stylesheet">  
+		<link href="css/color.css" rel="stylesheet">
+        
+	    <!-- CSS Importados -->
+        
+        <!-- Owl Carousel -->  
+		<link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- bootstrap.min css -->  
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Font-awesome.min css --> 
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Main Stylesheet --> 
+        <link rel="stylesheet" href="css/animate.min.css"> 
+
+		<link rel="stylesheet" href="css/main.css">
+        <!-- Responsive Stylesheet --> 
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> --> 
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  
+	<script src="js/css3-animate-it.js"></script>
+    <!-- JavaScript Importado -->
+	</head>
+	<body>
+
+	<!--
+	header-img start 
+	============================== -->
+    <!-- <section id="hero-area"> 
+      <img class="img-responsive" src="img/header.png" alt="">
+    </section> -->
+	<!--
+    Header start 
+  ============================== -->
+  
+	<nav id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              
+                              <!-- Imagen Logo -->
+                                  <a class="navbar-brand" href="index.html">
+                                    <img width="70" src="img/aet_logo_2017.png" alt="Logo">   
+                                  </a>  
+                               
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <!--
+                             <ul class="nav navbar-nav navbar-right" id="top-nav">-->
+                      <ul class="nav navbar-nav navbar-left" >
+                      <!-- <li><a href="index.html">Home</a></li>  -->
+            					<li class="selected"><a href="Portugues.html">Por.</a></li>
+            					<li><a href="Matematica.html">Mat.</a></li>
+            					<li><a href="Ciencias.html">Ciê.</a></li>
+            					<li><a href="Historia.html">His.</a></li>
+            					<li><a href="Geografia.html">Geo.</a></li>  
+            					<li><a href="Ingles.html">Ing.</a></li>
+            					<li><a href="Artes.html">Art.</a></li>
+            					<li><a href="Outros.html">Outros</a></li>
+                      </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->     
+
+    <!-- blog start activities -->
+<!-- ==========================================================================================================================
+--> 
+<section id="blog">     
+    
+
+
+</section><!-- #blog close -->
+<!--==========================================================================================================================-->
+
+    
+   
+   
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copie e Compartilhe <img src="img/indice.png" width="52" height="52"> </p>
+                   </div>
+                 </div>
+               </div>
+            </div> 
+         </footer>
+
+<!-- topo da página -->
+<style>
+.scrollToTop{   
+    position:fixed;
+    bottom:40px; 
+    right:40px;
+    display:none;
+}
+</style>
+         <a href="#" class="scrollToTop"> <h5 align="center">^ <br>Topo</h5></a>
+<script>
+$(document).ready(function(){
+
+//Verifica se a Janela está no topo
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('.scrollToTop').fadeIn();
+    } else {
+        $('.scrollToTop').fadeOut();
+    }
+});
+
+//Onde a mágia acontece! rs
+$('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+});
+
+});
+</script>
+
+   </body>
+</html>
