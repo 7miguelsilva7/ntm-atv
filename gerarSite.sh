@@ -1,8 +1,8 @@
 hugo
 
-cp *.html public/
+cp -u *.html public/
 
-cp themes/slate/layouts/partials/header.html public/
+cp -u themes/slate/layouts/partials/header.html public/
 cp -r atividades public/
 cp -r Objetos public/
 cd public/
