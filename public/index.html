@@ -235,8 +235,19 @@ span.c {
        <div class="row">
          <div class="col-md-12">
            <div class="block">
-            <div class="row animatedParent"><!-- 
-            <h1 class="heading">Objetos de <span>Aprendizagem </span></h1><!--  --> 
+            <div class="row animatedParent">
+
+<p></p>
+    <!--search  start
+    ============================= -->
+        <!-- <div id="search" class="container"> -->
+                    <div  align="center" class="block wow fadeInLeft"  data-wow-delay="200ms">                            
+                                <form method="get" action="">
+                                <input type="search" onclick="this.select();" name="q" size="25" maxlength="255" value="" placeholder="Buscar Atividade">                        
+                                </form>
+                    </div>
+
+    <!-- search close -->
             
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"> 
               <div class="animated"> 
@@ -365,21 +376,40 @@ span.c {
             </div><!-- .containe close -->  <!-- -->
     </section><!-- #blog close -->     
 
+<div id="footer">
 
-     <!--search  start
-    ============================= -->
-    <section  id="footer">
-        <div id="search" class="container">
-            <div  class="row">
-                    <div align="center" class="block wow fadeInLeft"  data-wow-delay="200ms">                            
-                                <form method="get" action="">
-                                <input type="search" onclick="this.select();" name="q" size="25" maxlength="255" value="" placeholder="Buscar Atividade">                        
-                                </form>
-                    </div>
 
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #search close -->
+<!-- topo da página -->
+<style>
+    .scrollToTop{   
+        position:fixed;
+        bottom:40px; 
+        right:40px;
+        display:none;
+    }
+    </style>
+             <a href="#" class="scrollToTop"> <h5 align="center">^ <br>Topo</h5></a>
+    <script>
+    $(document).ready(function(){
+    
+    //Verifica se a Janela está no topo
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
+    
+    //Onde a mágia acontece! rs
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
+    
+    });
+    </script>
+    
 
 <script language="">
 
