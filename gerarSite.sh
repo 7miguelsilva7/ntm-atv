@@ -3,7 +3,6 @@ hugo
 cp -u *.html public/
 
 cp -u themes/slate/layouts/partials/header.html public/
-cp -r atividades public/
 cp -r Objetos public/
 cd public/
 cat header.html index.html > index2.html
