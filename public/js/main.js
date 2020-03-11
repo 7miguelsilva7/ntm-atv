@@ -33,3 +33,12 @@ $(document).ready(function(){
     new WOW().init();
 
 });
+
+
+// activate div onclick
+$(function() {
+    $('.service-box').click(function() {
+        $('.service-box').removeClass('active');
+        $(this).addClass('active');
+    });
+ });
