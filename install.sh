@@ -6,7 +6,18 @@ echo
 
 else
 
-cp -rv busqueAqui /opt/ && cp -rv usr /
-chmod -R 777 /opt/busqueAqui 
+echo "[Desktop Entry]
+	Version=1.0
+	Type=Application
+	Name=Atividades Educacionais
+	Exec=firefox /opt/ntm-atv/index.html
+	Icon=/opt/ntm-atv/img/atividadeseducacionais.png
+	Categories=Education;
+	Comment=Atividades Educativas
+	Name[pt_BR]=Atividades Educacionais" > /usr/share/applications/ntm-atv.desktop
+
+mkdir /opt/ntm-atv/
+cp -rv public/* /opt/ntm-atv/
+chmod -R 777 /opt/ntm-atv
 
 fi
