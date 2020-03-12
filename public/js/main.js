@@ -37,8 +37,8 @@ $(document).ready(function(){
 
 // activate div onclick
 $(function() {
-    $('.service-box').click(function() {
-        $('.service-box').removeClass('active');
+    $('a.link').click(function() {
+        $('a.link').removeClass('active');
         $(this).addClass('active');
     });
  });
